@@ -226,8 +226,9 @@ Now, to install Qolsys Gateway with HACS, follow these steps:
 >   # ...
 > ```
 >
-> AppDaemon will then load `apps.yaml` from `/homeassistant/appdaemon/apps/`
-> too, so move any existing app configuration there.
+> AppDaemon will then only load apps from `/homeassistant/appdaemon/apps/`,
+> so move your `apps.yaml` and any other apps you use from
+> `/addon_configs/a0d7b954_appdaemon/apps/` there too.
 
 
 #### Manually
